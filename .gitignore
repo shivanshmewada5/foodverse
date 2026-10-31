@@ -1,0 +1,37 @@
+# Virtual environments
+backend/.venv/
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node modules & frontend builds
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+.npm/
+
+# Environment variables & local secrets
+.env
+backend/.env
+*.local
+
+# SQLite Database (allow sample seeding on runtime)
+backend/*.db
+backend/*.db-journal
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
